@@ -1,4 +1,4 @@
-# Akash Tyagi's Portfolio
+# Arsa Kumar Portfolio
 
 A modern, responsive portfolio website showcasing my work as a Backend Engineer.
 
@@ -43,13 +43,13 @@ Built with Next.js. Requires Node.js v18.17+.
 
 ## Contact
 
-- **Email**: akashttyagi21@gmail.com
-- **LinkedIn**: [akashtyagi21](https://www.linkedin.com/in/akashtyagi21/)
-- **GitHub**: [whoakashtyagi](https://github.com/whoakashtyagi)
+- **Email**: Arsakumar46@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/arsa-kumar-ab1015229/
+- **GitHub**: https://github.com/arsa-tampan
 
 ## License
 
-All rights reserved © 2026 Akash Tyagi
+All rights reserved © 2026 Arsa Kumar
 
 ## Deploy
 
