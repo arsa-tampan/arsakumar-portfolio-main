@@ -1,0 +1,197 @@
+﻿<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0f1923"/>
+    </linearGradient>
+    <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="50%" stop-color="#8957e5"/>
+      <stop offset="100%" stop-color="#2ea043"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="1100" cy="30" r="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80" cy="600" r="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8957e5" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#8957e5" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="mBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#388bfd"/>
+    </marker>
+    <marker id="mGray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6e7681"/>
+    </marker>
+    <marker id="mYellow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e3b341"/>
+    </marker>
+  </defs>
+
+  <!-- Background layers -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <!-- Top accent bar -->
+  <rect width="1200" height="3" fill="url(#topBar)"/>
+
+  <!-- ====== HEADER ====== -->
+  <text x="60" y="52" font-size="23" font-weight="700" fill="#e6edf3" letter-spacing="-0.4">AI Document Structuring Service</text>
+  <text x="60" y="76" font-size="11.5" fill="#6e7681">Spring Boot · Azure AI Document Intelligence · Spring AI SDK · PostgreSQL · Docker</text>
+
+  <!-- Impact badge -->
+  <rect x="984" y="34" width="156" height="50" rx="8" fill="#0d1f18" stroke="#238636" stroke-width="1.5"/>
+  <text x="1062" y="55" font-size="9.5" fill="#3fb950" text-anchor="middle" font-weight="600" letter-spacing="0.8">RESULT</text>
+  <text x="1062" y="74" font-size="16" fill="#3fb950" text-anchor="middle" font-weight="700">80% Faster</text>
+
+  <!-- Header divider -->
+  <line x1="60" y1="100" x2="1140" y2="100" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Pipeline label -->
+  <text x="600" y="126" font-size="10" fill="#484f58" text-anchor="middle" letter-spacing="2.5" font-weight="600">PROCESSING PIPELINE</text>
+
+  <!-- ====== PIPELINE BOXES ====== -->
+  <!-- 5 boxes: 162x95, gap=32, y=145-240 -->
+  <!-- x: 131, 325, 519, 713, 907  |  cx: 212, 406, 600, 794, 988 -->
+
+  <!-- Box 1: Document Upload -->
+  <rect x="131" y="145" width="162" height="95" rx="10" fill="#0d1f3c" stroke="#1f6feb" stroke-width="1.5"/>
+  <g transform="translate(149,153)">
+    <path d="M0,0 L10,0 L14,4 L14,18 L0,18 Z" fill="none" stroke="#388bfd" stroke-width="1.3" stroke-linejoin="round"/>
+    <path d="M10,0 L10,4 L14,4" fill="none" stroke="#388bfd" stroke-width="1.3"/>
+    <line x1="3" y1="7" x2="11" y2="7" stroke="#388bfd" stroke-width="0.9"/>
+    <line x1="3" y1="11" x2="11" y2="11" stroke="#388bfd" stroke-width="0.9"/>
+    <line x1="3" y1="15" x2="8" y2="15" stroke="#388bfd" stroke-width="0.9"/>
+  </g>
+  <text x="175" y="165" font-size="11.5" font-weight="700" fill="#e6edf3">Document</text>
+  <text x="175" y="179" font-size="11.5" font-weight="700" fill="#388bfd">Upload</text>
+  <text x="212" y="200" font-size="9.5" fill="#6e7681" text-anchor="middle">DOCX · PDF · XML</text>
+  <text x="212" y="214" font-size="9.5" fill="#6e7681" text-anchor="middle">REST API Intake</text>
+  <text x="212" y="228" font-size="9.5" fill="#6e7681" text-anchor="middle">Validation &amp; Storage</text>
+
+  <!-- Arrow 1 to 2 -->
+  <line x1="294" y1="192" x2="323" y2="192" stroke="#388bfd" stroke-width="1.5" marker-end="url(#mBlue)" opacity="0.8"/>
+
+  <!-- Box 2: Azure AI Doc Intelligence -->
+  <rect x="325" y="145" width="162" height="95" rx="10" fill="#1a1438" stroke="#8957e5" stroke-width="1.5"/>
+  <g transform="translate(343,155)">
+    <path d="M8,0 L9.8,6.2 L16,8 L9.8,9.8 L8,16 L6.2,9.8 L0,8 L6.2,6.2 Z" fill="none" stroke="#bc8cff" stroke-width="1.3"/>
+    <circle cx="8" cy="8" r="2.5" fill="#bc8cff" opacity="0.7"/>
+  </g>
+  <text x="369" y="165" font-size="11.5" font-weight="700" fill="#e6edf3">Azure AI Doc</text>
+  <text x="369" y="179" font-size="11.5" font-weight="700" fill="#bc8cff">Intelligence</text>
+  <text x="406" y="200" font-size="9.5" fill="#6e7681" text-anchor="middle">Tables · Headings</text>
+  <text x="406" y="214" font-size="9.5" fill="#6e7681" text-anchor="middle">Sections · Metadata</text>
+  <text x="406" y="228" font-size="9.5" fill="#6e7681" text-anchor="middle">Structured JSON</text>
+
+  <!-- Arrow 2 to 3 -->
+  <line x1="488" y1="192" x2="517" y2="192" stroke="#8957e5" stroke-width="1.5" marker-end="url(#mBlue)" opacity="0.8"/>
+
+  <!-- Box 3: Schema Mapping Engine -->
+  <rect x="519" y="145" width="162" height="95" rx="10" fill="#0d1f3c" stroke="#388bfd" stroke-width="1.5"/>
+  <g transform="translate(537,156)">
+    <line x1="0" y1="5" x2="13" y2="5" stroke="#388bfd" stroke-width="1.3"/>
+    <polygon points="11,2 15,5 11,8" fill="#388bfd"/>
+    <line x1="15" y1="12" x2="2" y2="12" stroke="#388bfd" stroke-width="1.3"/>
+    <polygon points="4,9 0,12 4,15" fill="#388bfd"/>
+  </g>
+  <text x="563" y="165" font-size="11.5" font-weight="700" fill="#e6edf3">Schema</text>
+  <text x="563" y="179" font-size="11.5" font-weight="700" fill="#388bfd">Mapping Engine</text>
+  <text x="600" y="200" font-size="9.5" fill="#6e7681" text-anchor="middle">Pattern Matching</text>
+  <text x="600" y="214" font-size="9.5" fill="#6e7681" text-anchor="middle">Heuristic Analysis</text>
+  <text x="600" y="228" font-size="9.5" fill="#6e7681" text-anchor="middle">Custom Mapping Logic</text>
+
+  <!-- Arrow 3 to 4 -->
+  <line x1="682" y1="192" x2="711" y2="192" stroke="#388bfd" stroke-width="1.5" marker-end="url(#mBlue)" opacity="0.8"/>
+
+  <!-- Box 4: Confidence Scoring -->
+  <rect x="713" y="145" width="162" height="95" rx="10" fill="#1f1b0d" stroke="#e3b341" stroke-width="1.5"/>
+  <g transform="translate(731,157)">
+    <path d="M1,13 A9,9,0,0,1,17,13" fill="none" stroke="#e3b341" stroke-width="1.3"/>
+    <line x1="9" y1="13" x2="14" y2="5" stroke="#e3b341" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="9" cy="13" r="2" fill="#e3b341"/>
+  </g>
+  <text x="757" y="165" font-size="11.5" font-weight="700" fill="#e6edf3">Confidence</text>
+  <text x="757" y="179" font-size="11.5" font-weight="700" fill="#e3b341">Scoring</text>
+  <text x="794" y="200" font-size="9.5" fill="#6e7681" text-anchor="middle">Score 0.0 to 1.0</text>
+  <text x="794" y="214" font-size="9.5" fill="#3fb950" text-anchor="middle">&#8805; 0.7 &#8594; Auto-map</text>
+  <text x="794" y="228" font-size="9.5" fill="#e3b341" text-anchor="middle">&lt; 0.7 &#8594; Human Review</text>
+
+  <!-- Arrow 4 to 5 -->
+  <line x1="876" y1="192" x2="905" y2="192" stroke="#388bfd" stroke-width="1.5" marker-end="url(#mBlue)" opacity="0.8"/>
+
+  <!-- Box 5: Platform Import -->
+  <rect x="907" y="145" width="162" height="95" rx="10" fill="#0d1f18" stroke="#3fb950" stroke-width="1.5"/>
+  <g transform="translate(925,155)">
+    <circle cx="9" cy="9" r="8.5" fill="none" stroke="#3fb950" stroke-width="1.3"/>
+    <path d="M4,9 L7.5,12.5 L15,5" fill="none" stroke="#3fb950" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="951" y="165" font-size="11.5" font-weight="700" fill="#e6edf3">Platform</text>
+  <text x="951" y="179" font-size="11.5" font-weight="700" fill="#3fb950">Import</text>
+  <text x="988" y="200" font-size="9.5" fill="#6e7681" text-anchor="middle">Structural Validation</text>
+  <text x="988" y="214" font-size="9.5" fill="#6e7681" text-anchor="middle">Content Sanitization</text>
+  <text x="988" y="228" font-size="9.5" fill="#3fb950" text-anchor="middle">Platform Schema &#10003;</text>
+
+  <!-- ====== SUPPORT ARROWS (dashed) ====== -->
+  <line x1="406" y1="241" x2="406" y2="281" stroke="#6e7681" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#mGray)"/>
+  <line x1="794" y1="241" x2="794" y2="281" stroke="#e3b341" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#mYellow)"/>
+
+  <!-- ====== SUPPORT BOXES ====== -->
+
+  <!-- PostgreSQL -->
+  <rect x="313" y="284" width="186" height="78" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" stroke-dasharray="5,4"/>
+  <g transform="translate(330,294)">
+    <ellipse cx="9" cy="3.5" rx="9" ry="3.5" fill="none" stroke="#4a9bf5" stroke-width="1.2"/>
+    <line x1="0" y1="3.5" x2="0" y2="21" stroke="#4a9bf5" stroke-width="1.2"/>
+    <line x1="18" y1="3.5" x2="18" y2="21" stroke="#4a9bf5" stroke-width="1.2"/>
+    <ellipse cx="9" cy="21" rx="9" ry="3.5" fill="none" stroke="#4a9bf5" stroke-width="1.2"/>
+    <path d="M0,11 Q9,14.5 18,11" fill="none" stroke="#4a9bf5" stroke-width="0.8"/>
+  </g>
+  <text x="358" y="304" font-size="11" font-weight="600" fill="#e6edf3">PostgreSQL</text>
+  <text x="406" y="321" font-size="9.5" fill="#6e7681" text-anchor="middle">Job State &amp; Progress</text>
+  <text x="406" y="335" font-size="9.5" fill="#6e7681" text-anchor="middle">Idempotent Processing</text>
+  <text x="406" y="349" font-size="9.5" fill="#6e7681" text-anchor="middle">Chunk Hash Deduplication</text>
+
+  <!-- Human Review -->
+  <rect x="701" y="284" width="186" height="78" rx="8" fill="#161b22" stroke="#e3b341" stroke-width="1" stroke-dasharray="5,4"/>
+  <g transform="translate(718,293)">
+    <circle cx="9" cy="6" r="5.5" fill="none" stroke="#e3b341" stroke-width="1.2"/>
+    <path d="M0,23 Q1,16 9,16 Q17,16 18,23" fill="none" stroke="#e3b341" stroke-width="1.2"/>
+  </g>
+  <text x="746" y="304" font-size="11" font-weight="600" fill="#e6edf3">Human Review</text>
+  <text x="794" y="321" font-size="9.5" fill="#6e7681" text-anchor="middle">Low-Confidence Mappings</text>
+  <text x="794" y="335" font-size="9.5" fill="#e3b341" text-anchor="middle">Threshold: &lt; 0.7</text>
+  <text x="794" y="349" font-size="9.5" fill="#6e7681" text-anchor="middle">Prevents Silent Errors</text>
+
+  <!-- ====== SECTION SEPARATOR ====== -->
+  <line x1="60" y1="408" x2="1140" y2="408" stroke="#21262d" stroke-width="1"/>
+  <text x="600" y="430" font-size="10" fill="#484f58" text-anchor="middle" letter-spacing="2.5" font-weight="600">KEY RESULTS</text>
+
+  <!-- ====== METRICS ====== -->
+  <!-- 3 boxes: 293x65, gap=30, y=440-505 -->
+  <!-- x: 131, 454, 777  |  cx: 278, 601, 924 -->
+
+  <!-- Metric 1: 80% reduction -->
+  <rect x="131" y="440" width="293" height="65" rx="8" fill="#0d1f18" stroke="#238636" stroke-width="1"/>
+  <text x="278" y="472" font-size="26" font-weight="700" fill="#3fb950" text-anchor="middle">80%</text>
+  <text x="278" y="491" font-size="9.5" fill="#8b949e" text-anchor="middle">reduction in client onboarding time</text>
+  <text x="278" y="504" font-size="9.5" fill="#3fb950" text-anchor="middle">days &#8594; hours</text>
+
+  <!-- Metric 2: 95%+ accuracy -->
+  <rect x="454" y="440" width="293" height="65" rx="8" fill="#0d1623" stroke="#1f6feb" stroke-width="1"/>
+  <text x="601" y="472" font-size="26" font-weight="700" fill="#388bfd" text-anchor="middle">95%+</text>
+  <text x="601" y="491" font-size="9.5" fill="#8b949e" text-anchor="middle">accuracy on standard document formats</text>
+  <text x="601" y="504" font-size="9.5" fill="#388bfd" text-anchor="middle">DOCX · clean PDFs</text>
+
+  <!-- Metric 3: 500+ per week -->
+  <rect x="777" y="440" width="293" height="65" rx="8" fill="#140e23" stroke="#6e40c9" stroke-width="1"/>
+  <text x="924" y="472" font-size="26" font-weight="700" fill="#bc8cff" text-anchor="middle">500+</text>
+  <text x="924" y="491" font-size="9.5" fill="#8b949e" text-anchor="middle">documents processed per week</text>
+  <text x="924" y="504" font-size="9.5" fill="#bc8cff" text-anchor="middle">in production</text>
+
+  <!-- ====== FOOTER ====== -->
+  <line x1="60" y1="526" x2="1140" y2="526" stroke="#21262d" stroke-width="1"/>
+  <text x="60" y="548" font-size="10" fill="#2f353b">Java · Spring Boot · Azure AI Document Intelligence · Spring AI SDK · PostgreSQL · Docker</text>
+  <text x="1140" y="548" font-size="10" fill="#2f353b" text-anchor="end">akashtyagi.dev</text>
+
+</svg>
