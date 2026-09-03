@@ -1,4 +1,4 @@
-# Arsa Kumar Portfolioo
+# Arsa Kumar Portfolio
 
 A modern, responsive portfolio website showcasing my work as a Backend Engineer.
 
