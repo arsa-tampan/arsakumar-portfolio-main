@@ -226,9 +226,9 @@ const about: About = {
         images: [],
      },
       {
-        company: "PT Talenta Anugerah Pratama.",
-        timeframe: "Sep 2025 - Mar 2026",
-        role: "Operator CNC",
+        company: "PT Indo Color Abadi.",
+        timeframe: "Mar 2026 - Juli 2026",
+        role: "Staff Warehouse",
         achievements: [
           <>  
         <><li>Bertanggungjawab dalam stock opname bahan baku mulai dari pengaturan stock, penerimaan dan penimbangan bahan datang, penyimpanan dalam gudang, serta pendataan keluar masuk bahan setiap harinya</li></>
